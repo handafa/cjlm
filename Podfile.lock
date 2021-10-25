@@ -1,0 +1,64 @@
+PODS:
+  - HXPhotoPicker (2.3.7):
+    - YYWebImage
+  - IQKeyboardManager (6.5.3)
+  - LBProgressHUD (1.0.1)
+  - Masonry (1.1.0)
+  - MJRefresh (3.2.0)
+  - SDWebImage (5.3.1):
+    - SDWebImage/Core (= 5.3.1)
+  - SDWebImage/Core (5.3.1)
+  - SPAlertController (3.1.0)
+  - SVProgressHUD (2.2.5)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYModel (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - HXPhotoPicker
+  - IQKeyboardManager
+  - LBProgressHUD
+  - Masonry
+  - MJRefresh
+  - SDWebImage
+  - SPAlertController
+  - SVProgressHUD
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - HXPhotoPicker
+    - IQKeyboardManager
+    - LBProgressHUD
+    - Masonry
+    - MJRefresh
+    - SDWebImage
+    - SPAlertController
+    - SVProgressHUD
+    - YYCache
+    - YYImage
+    - YYModel
+    - YYWebImage
+
+SPEC CHECKSUMS:
+  HXPhotoPicker: 23870a0541c2b84879d26367de077dbd382836e7
+  IQKeyboardManager: c2f901164d56807a35788483584d09fa69192e8e
+  LBProgressHUD: d55bc6c1b966032e59fc01ed3544fddec40fd6e1
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  SDWebImage: 7137d57385fb632129838c1e6ab9528a22c666cc
+  SPAlertController: f27a8827f260fe2a61c3da03bf3f1e8acdc1408e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 07a0f1a9701b9fd5f2df5adae3f319db5fa44c33
+
+COCOAPODS: 1.11.2
