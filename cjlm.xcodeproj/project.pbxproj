@@ -105,6 +105,16 @@
 		FBCADF6C237D5D3E001ADA23 /* MineTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCADF6B237D5D3E001ADA23 /* MineTableHeaderView.m */; };
 		FBCADF70237D5EFC001ADA23 /* MineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCADF6E237D5EFC001ADA23 /* MineCell.m */; };
 		FBCADF71237D5EFC001ADA23 /* MineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBCADF6F237D5EFC001ADA23 /* MineCell.xib */; };
+		FBD08F6F2727012F00E28B52 /* TYLinkTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD08F5C2727012F00E28B52 /* TYLinkTextStorage.m */; };
+		FBD08F702727012F00E28B52 /* TYDrawStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD08F5D2727012F00E28B52 /* TYDrawStorage.m */; };
+		FBD08F712727012F00E28B52 /* TYViewStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD08F5E2727012F00E28B52 /* TYViewStorage.m */; };
+		FBD08F722727012F00E28B52 /* TYImageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD08F5F2727012F00E28B52 /* TYImageStorage.m */; };
+		FBD08F732727012F00E28B52 /* NSMutableAttributedString+TY.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD08F612727012F00E28B52 /* NSMutableAttributedString+TY.m */; };
+		FBD08F742727012F00E28B52 /* TYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD08F622727012F00E28B52 /* TYImageCache.m */; };
+		FBD08F752727012F00E28B52 /* TYTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD08F632727012F00E28B52 /* TYTextStorage.m */; };
+		FBD08F762727012F00E28B52 /* TYAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD08F642727012F00E28B52 /* TYAttributedLabel.m */; };
+		FBD08F772727012F00E28B52 /* TYTextContainer+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD08F6B2727012F00E28B52 /* TYTextContainer+Extended.m */; };
+		FBD08F782727012F00E28B52 /* TYTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD08F6E2727012F00E28B52 /* TYTextContainer.m */; };
 		FBDBA15F2386300F006528AF /* AboutUsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBA15D2386300F006528AF /* AboutUsController.m */; };
 		FBDBA1602386300F006528AF /* AboutUsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDBA15E2386300F006528AF /* AboutUsController.xib */; };
 		FBDBA1672386393E006528AF /* PersonalHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBA1652386393E006528AF /* PersonalHomeController.m */; };
@@ -112,16 +122,6 @@
 		FBDBA16C23863A5D006528AF /* PersonalHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBA16B23863A5D006528AF /* PersonalHomeHeaderView.m */; };
 		FBDBA1712386650A006528AF /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBA16F2386650A006528AF /* LoginController.m */; };
 		FBDBA1722386650A006528AF /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDBA1702386650A006528AF /* LoginController.xib */; };
-		FBFBB0132726EFC500DB7818 /* TYLinkTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB0002726EFC400DB7818 /* TYLinkTextStorage.m */; };
-		FBFBB0142726EFC500DB7818 /* TYDrawStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB0012726EFC400DB7818 /* TYDrawStorage.m */; };
-		FBFBB0152726EFC500DB7818 /* TYViewStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB0022726EFC400DB7818 /* TYViewStorage.m */; };
-		FBFBB0162726EFC500DB7818 /* TYImageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB0032726EFC400DB7818 /* TYImageStorage.m */; };
-		FBFBB0172726EFC500DB7818 /* NSMutableAttributedString+TY.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB0052726EFC400DB7818 /* NSMutableAttributedString+TY.m */; };
-		FBFBB0182726EFC500DB7818 /* TYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB0062726EFC400DB7818 /* TYImageCache.m */; };
-		FBFBB0192726EFC500DB7818 /* TYTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB0072726EFC400DB7818 /* TYTextStorage.m */; };
-		FBFBB01A2726EFC500DB7818 /* TYAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB0082726EFC400DB7818 /* TYAttributedLabel.m */; };
-		FBFBB01B2726EFC500DB7818 /* TYTextContainer+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB00F2726EFC400DB7818 /* TYTextContainer+Extended.m */; };
-		FBFBB01C2726EFC500DB7818 /* TYTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBB0122726EFC400DB7818 /* TYTextContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -309,6 +309,26 @@
 		FBCADF6D237D5EFC001ADA23 /* MineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineCell.h; sourceTree = "<group>"; };
 		FBCADF6E237D5EFC001ADA23 /* MineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineCell.m; sourceTree = "<group>"; };
 		FBCADF6F237D5EFC001ADA23 /* MineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineCell.xib; sourceTree = "<group>"; };
+		FBD08F5B2727012F00E28B52 /* TYAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAttributedLabel.h; sourceTree = "<group>"; };
+		FBD08F5C2727012F00E28B52 /* TYLinkTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLinkTextStorage.m; sourceTree = "<group>"; };
+		FBD08F5D2727012F00E28B52 /* TYDrawStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDrawStorage.m; sourceTree = "<group>"; };
+		FBD08F5E2727012F00E28B52 /* TYViewStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewStorage.m; sourceTree = "<group>"; };
+		FBD08F5F2727012F00E28B52 /* TYImageStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageStorage.m; sourceTree = "<group>"; };
+		FBD08F602727012F00E28B52 /* TYTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextContainer.h; sourceTree = "<group>"; };
+		FBD08F612727012F00E28B52 /* NSMutableAttributedString+TY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TY.m"; sourceTree = "<group>"; };
+		FBD08F622727012F00E28B52 /* TYImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageCache.m; sourceTree = "<group>"; };
+		FBD08F632727012F00E28B52 /* TYTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextStorage.m; sourceTree = "<group>"; };
+		FBD08F642727012F00E28B52 /* TYAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAttributedLabel.m; sourceTree = "<group>"; };
+		FBD08F652727012F00E28B52 /* TYLinkTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLinkTextStorage.h; sourceTree = "<group>"; };
+		FBD08F662727012F00E28B52 /* TYTextStorageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorageProtocol.h; sourceTree = "<group>"; };
+		FBD08F672727012F00E28B52 /* TYViewStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewStorage.h; sourceTree = "<group>"; };
+		FBD08F682727012F00E28B52 /* TYImageStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageStorage.h; sourceTree = "<group>"; };
+		FBD08F692727012F00E28B52 /* TYDrawStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDrawStorage.h; sourceTree = "<group>"; };
+		FBD08F6A2727012F00E28B52 /* TYTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorage.h; sourceTree = "<group>"; };
+		FBD08F6B2727012F00E28B52 /* TYTextContainer+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYTextContainer+Extended.m"; sourceTree = "<group>"; };
+		FBD08F6C2727012F00E28B52 /* TYImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageCache.h; sourceTree = "<group>"; };
+		FBD08F6D2727012F00E28B52 /* NSMutableAttributedString+TY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TY.h"; sourceTree = "<group>"; };
+		FBD08F6E2727012F00E28B52 /* TYTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextContainer.m; sourceTree = "<group>"; };
 		FBDBA15C2386300F006528AF /* AboutUsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutUsController.h; sourceTree = "<group>"; };
 		FBDBA15D2386300F006528AF /* AboutUsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsController.m; sourceTree = "<group>"; };
 		FBDBA15E2386300F006528AF /* AboutUsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutUsController.xib; sourceTree = "<group>"; };
@@ -320,26 +340,6 @@
 		FBDBA16E2386650A006528AF /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		FBDBA16F2386650A006528AF /* LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		FBDBA1702386650A006528AF /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
-		FBFBAFFF2726EFC400DB7818 /* TYAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAttributedLabel.h; sourceTree = "<group>"; };
-		FBFBB0002726EFC400DB7818 /* TYLinkTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLinkTextStorage.m; sourceTree = "<group>"; };
-		FBFBB0012726EFC400DB7818 /* TYDrawStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDrawStorage.m; sourceTree = "<group>"; };
-		FBFBB0022726EFC400DB7818 /* TYViewStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewStorage.m; sourceTree = "<group>"; };
-		FBFBB0032726EFC400DB7818 /* TYImageStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageStorage.m; sourceTree = "<group>"; };
-		FBFBB0042726EFC400DB7818 /* TYTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextContainer.h; sourceTree = "<group>"; };
-		FBFBB0052726EFC400DB7818 /* NSMutableAttributedString+TY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TY.m"; sourceTree = "<group>"; };
-		FBFBB0062726EFC400DB7818 /* TYImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageCache.m; sourceTree = "<group>"; };
-		FBFBB0072726EFC400DB7818 /* TYTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextStorage.m; sourceTree = "<group>"; };
-		FBFBB0082726EFC400DB7818 /* TYAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAttributedLabel.m; sourceTree = "<group>"; };
-		FBFBB0092726EFC400DB7818 /* TYLinkTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLinkTextStorage.h; sourceTree = "<group>"; };
-		FBFBB00A2726EFC400DB7818 /* TYTextStorageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorageProtocol.h; sourceTree = "<group>"; };
-		FBFBB00B2726EFC400DB7818 /* TYViewStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewStorage.h; sourceTree = "<group>"; };
-		FBFBB00C2726EFC400DB7818 /* TYImageStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageStorage.h; sourceTree = "<group>"; };
-		FBFBB00D2726EFC400DB7818 /* TYDrawStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDrawStorage.h; sourceTree = "<group>"; };
-		FBFBB00E2726EFC400DB7818 /* TYTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorage.h; sourceTree = "<group>"; };
-		FBFBB00F2726EFC400DB7818 /* TYTextContainer+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYTextContainer+Extended.m"; sourceTree = "<group>"; };
-		FBFBB0102726EFC400DB7818 /* TYImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageCache.h; sourceTree = "<group>"; };
-		FBFBB0112726EFC400DB7818 /* NSMutableAttributedString+TY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TY.h"; sourceTree = "<group>"; };
-		FBFBB0122726EFC400DB7818 /* TYTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -449,7 +449,7 @@
 		FB5EEC28237D3F30000B2EFF /* Thirdparty */ = {
 			isa = PBXGroup;
 			children = (
-				FBFBAFFE2726EFC400DB7818 /* TYAttributedLabel */,
+				FBD08F5A2727012F00E28B52 /* TYAttributedLabel */,
 				FBC8A04123C812E90074EA58 /* AFNetworking */,
 				FBC4844323850B7300994604 /* EwenTextView */,
 				FB5EEC29237D3F30000B2EFF /* BRPickerView */,
@@ -1003,6 +1003,33 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		FBD08F5A2727012F00E28B52 /* TYAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				FBD08F5B2727012F00E28B52 /* TYAttributedLabel.h */,
+				FBD08F5C2727012F00E28B52 /* TYLinkTextStorage.m */,
+				FBD08F5D2727012F00E28B52 /* TYDrawStorage.m */,
+				FBD08F5E2727012F00E28B52 /* TYViewStorage.m */,
+				FBD08F5F2727012F00E28B52 /* TYImageStorage.m */,
+				FBD08F602727012F00E28B52 /* TYTextContainer.h */,
+				FBD08F612727012F00E28B52 /* NSMutableAttributedString+TY.m */,
+				FBD08F622727012F00E28B52 /* TYImageCache.m */,
+				FBD08F632727012F00E28B52 /* TYTextStorage.m */,
+				FBD08F642727012F00E28B52 /* TYAttributedLabel.m */,
+				FBD08F652727012F00E28B52 /* TYLinkTextStorage.h */,
+				FBD08F662727012F00E28B52 /* TYTextStorageProtocol.h */,
+				FBD08F672727012F00E28B52 /* TYViewStorage.h */,
+				FBD08F682727012F00E28B52 /* TYImageStorage.h */,
+				FBD08F692727012F00E28B52 /* TYDrawStorage.h */,
+				FBD08F6A2727012F00E28B52 /* TYTextStorage.h */,
+				FBD08F6B2727012F00E28B52 /* TYTextContainer+Extended.m */,
+				FBD08F6C2727012F00E28B52 /* TYImageCache.h */,
+				FBD08F6D2727012F00E28B52 /* NSMutableAttributedString+TY.h */,
+				FBD08F6E2727012F00E28B52 /* TYTextContainer.m */,
+			);
+			path = TYAttributedLabel;
+			sourceTree = "<group>";
+		};
 		FBDBA1612386381A006528AF /* 个人主页 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1042,33 +1069,6 @@
 				FB3C8BC323965866009E3ED5 /* TermsConditionsController.xib */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		FBFBAFFE2726EFC400DB7818 /* TYAttributedLabel */ = {
-			isa = PBXGroup;
-			children = (
-				FBFBAFFF2726EFC400DB7818 /* TYAttributedLabel.h */,
-				FBFBB0002726EFC400DB7818 /* TYLinkTextStorage.m */,
-				FBFBB0012726EFC400DB7818 /* TYDrawStorage.m */,
-				FBFBB0022726EFC400DB7818 /* TYViewStorage.m */,
-				FBFBB0032726EFC400DB7818 /* TYImageStorage.m */,
-				FBFBB0042726EFC400DB7818 /* TYTextContainer.h */,
-				FBFBB0052726EFC400DB7818 /* NSMutableAttributedString+TY.m */,
-				FBFBB0062726EFC400DB7818 /* TYImageCache.m */,
-				FBFBB0072726EFC400DB7818 /* TYTextStorage.m */,
-				FBFBB0082726EFC400DB7818 /* TYAttributedLabel.m */,
-				FBFBB0092726EFC400DB7818 /* TYLinkTextStorage.h */,
-				FBFBB00A2726EFC400DB7818 /* TYTextStorageProtocol.h */,
-				FBFBB00B2726EFC400DB7818 /* TYViewStorage.h */,
-				FBFBB00C2726EFC400DB7818 /* TYImageStorage.h */,
-				FBFBB00D2726EFC400DB7818 /* TYDrawStorage.h */,
-				FBFBB00E2726EFC400DB7818 /* TYTextStorage.h */,
-				FBFBB00F2726EFC400DB7818 /* TYTextContainer+Extended.m */,
-				FBFBB0102726EFC400DB7818 /* TYImageCache.h */,
-				FBFBB0112726EFC400DB7818 /* NSMutableAttributedString+TY.h */,
-				FBFBB0122726EFC400DB7818 /* TYTextContainer.m */,
-			);
-			path = TYAttributedLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1212,7 +1212,7 @@
 				FB5EEC7C237D3F30000B2EFF /* LZImageBrowserSubView.m in Sources */,
 				FBDBA16C23863A5D006528AF /* PersonalHomeHeaderView.m in Sources */,
 				FB5EEC80237D3F30000B2EFF /* LZImageBrowserTranslation.m in Sources */,
-				FBFBB0142726EFC500DB7818 /* TYDrawStorage.m in Sources */,
+				FBD08F702727012F00E28B52 /* TYDrawStorage.m in Sources */,
 				FB5EED22237D3F44000B2EFF /* BaseViewController.m in Sources */,
 				FB5EEC77237D3F30000B2EFF /* BRBaseView.m in Sources */,
 				FB5EED23237D3F44000B2EFF /* BaseCollectionViewCell.m in Sources */,
@@ -1226,13 +1226,13 @@
 				FB5EEC8A237D3F30000B2EFF /* SGPagingViewPopGestureVC.m in Sources */,
 				FB5EED21237D3F44000B2EFF /* BaseTableViewHeaderFooterView.m in Sources */,
 				FB5EEC86237D3F30000B2EFF /* SGPageContentScrollView.m in Sources */,
-				FBFBB0152726EFC500DB7818 /* TYViewStorage.m in Sources */,
-				FBFBB01C2726EFC500DB7818 /* TYTextContainer.m in Sources */,
+				FBD08F712727012F00E28B52 /* TYViewStorage.m in Sources */,
+				FBD08F782727012F00E28B52 /* TYTextContainer.m in Sources */,
 				FB5EEC84237D3F30000B2EFF /* UIButton+SGPagingView.m in Sources */,
 				FB5EEC7A237D3F30000B2EFF /* BRAddressPickerView.m in Sources */,
 				FB324F91238FA9BD003AB9ED /* MineService.m in Sources */,
 				FB03F102238E785D0050B8F4 /* FriendsService.m in Sources */,
-				FBFBB0172726EFC500DB7818 /* NSMutableAttributedString+TY.m in Sources */,
+				FBD08F732727012F00E28B52 /* NSMutableAttributedString+TY.m in Sources */,
 				FB5EEC81237D3F30000B2EFF /* LZImageBrowserManger.m in Sources */,
 				FBC8A05523C812E90074EA58 /* AFSecurityPolicy.m in Sources */,
 				FB5EEC87237D3F30000B2EFF /* SGPageContentCollectionView.m in Sources */,
@@ -1240,7 +1240,7 @@
 				FB5EECA0237D3F37000B2EFF /* NSString+Extension.m in Sources */,
 				FBDBA15F2386300F006528AF /* AboutUsController.m in Sources */,
 				FB5EEC27237D3E8C000B2EFF /* AppDelegate+CreateRootView.m in Sources */,
-				FBFBB0132726EFC500DB7818 /* TYLinkTextStorage.m in Sources */,
+				FBD08F6F2727012F00E28B52 /* TYLinkTextStorage.m in Sources */,
 				FB5EED14237D3F44000B2EFF /* FriendsCell.m in Sources */,
 				FB5EEC7B237D3F30000B2EFF /* LZImageBrowserViewController.m in Sources */,
 				FBDBA1712386650A006528AF /* LoginController.m in Sources */,
@@ -1262,12 +1262,12 @@
 				FBC8A05223C812E90074EA58 /* AFURLSessionManager.m in Sources */,
 				FB5EECAD237D3F3D000B2EFF /* RequestTool.m in Sources */,
 				FB5EED1A237D3F44000B2EFF /* UserModel.m in Sources */,
-				FBFBB01B2726EFC500DB7818 /* TYTextContainer+Extended.m in Sources */,
+				FBD08F772727012F00E28B52 /* TYTextContainer+Extended.m in Sources */,
 				FB5EED0F237D3F44000B2EFF /* NewestModel.m in Sources */,
 				FB94E2DC239248AC00445256 /* TriangleView.m in Sources */,
 				FB5EECAF237D3F3D000B2EFF /* LoginRegisterService.m in Sources */,
 				FBC8A05823C819470074EA58 /* UIView+Extension.m in Sources */,
-				FBFBB01A2726EFC500DB7818 /* TYAttributedLabel.m in Sources */,
+				FBD08F762727012F00E28B52 /* TYAttributedLabel.m in Sources */,
 				FB5EEC85237D3F30000B2EFF /* UIView+SGPagingView.m in Sources */,
 				FB20340B238BEE1C004E2B73 /* HomeService.m in Sources */,
 				FB5EEC7E237D3F30000B2EFF /* LZImageBrowserForceTouchViewController.m in Sources */,
@@ -1278,16 +1278,16 @@
 				FB5EED02237D3F43000B2EFF /* NewestController.m in Sources */,
 				FB5EED28237D3F70000B2EFF /* GlobalConst.m in Sources */,
 				FB03F106238E98C70050B8F4 /* FriendModel.m in Sources */,
-				FBFBB0162726EFC500DB7818 /* TYImageStorage.m in Sources */,
+				FBD08F722727012F00E28B52 /* TYImageStorage.m in Sources */,
 				FBCADF6C237D5D3E001ADA23 /* MineTableHeaderView.m in Sources */,
 				FB4E536223853E8900C6CA71 /* SearchUserView.m in Sources */,
 				FBC484422385054100994604 /* KeyboardView.m in Sources */,
 				FB235703238F5A8F003C1C97 /* PostHeaderView.m in Sources */,
 				FB5EED0C237D3F43000B2EFF /* AllCommentsCell.m in Sources */,
-				FBFBB0192726EFC500DB7818 /* TYTextStorage.m in Sources */,
+				FBD08F752727012F00E28B52 /* TYTextStorage.m in Sources */,
 				FB5EEC7F237D3F30000B2EFF /* LZImageBrowserMainView.m in Sources */,
 				FB5EED11237D3F44000B2EFF /* ReportController.m in Sources */,
-				FBFBB0182726EFC500DB7818 /* TYImageCache.m in Sources */,
+				FBD08F742727012F00E28B52 /* TYImageCache.m in Sources */,
 				FB5EEC89237D3F30000B2EFF /* SGPageTitleViewConfigure.m in Sources */,
 				FB38EC6E23B0814600E18CED /* AddNewTagView.m in Sources */,
 				FB5EED06237D3F43000B2EFF /* NewestFrameModel.m in Sources */,
