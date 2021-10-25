@@ -12,7 +12,10 @@
 
 + (void)postingWithParam:(NSMutableDictionary *)param contentText:(NSString *)content fileArray:(NSArray *)fileArray success:(void (^)(id _Nonnull, NSInteger))success fail:(void (^)(NSError * _Nonnull, NSInteger))fail
 {
-    [HELPER showInfoHUDWithMessage:@"发布成功，内容正在审核中。"];
+    [HELPER loadingHUD:@"" toView:WINDOW];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [HELPER showInfoHUDWithMessage:@"发布成功，内容正在审核中。"];
+    });
 }
 
 + (void)latestDataOnHomepageWithParam:(NSMutableDictionary *)param success:(void (^)(id _Nonnull, NSInteger))success fail:(void (^)(NSError * _Nonnull, NSInteger))fail
