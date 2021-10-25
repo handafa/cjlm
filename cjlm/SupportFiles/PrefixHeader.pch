@@ -12,15 +12,10 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
-////请求路径
-//#define REQUEST_PATH    @"http://bbs.dalongyun.com/"
-////图片路径
-//#define IMAGE_PATH    @"http://reso.dalongyun.com/"
-
 //请求路径
-#define REQUEST_PATH    @"http://bbstest.dalongyun.com/"
+#define REQUEST_PATH    @"http://bbs.dalongyun.com/"
 //图片路径
-#define IMAGE_PATH    @"https://resotest.dalongyun.com/"
+#define IMAGE_PATH    @"http://reso.dalongyun.com/"
 
 #define HELPER    [Helper sharedInstance]
 //控制台输出

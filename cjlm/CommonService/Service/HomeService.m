@@ -176,16 +176,10 @@
 
 + (void)deleteThePostWithParam:(NSMutableDictionary *)param success:(void (^)(id _Nonnull, NSInteger))success fail:(void (^)(NSError * _Nonnull, NSInteger))fail
 {
-    NSString* urlStr = [NSString stringWithFormat:@"%@v1/delThread",REQUEST_PATH];
-    [param setObject:[HELPER obtainUserInfo].token forKey:@"authToken"];
-    [param setObject:[HELPER obtainUserInfo].uid forKey:@"uid"];
-    [[RequestTool sharedTool] requestWithUrlString:urlStr requestParameter:param method:@"post" successBlock:^(id successResult, NSURLSessionDataTask *requestTask) {
-        NSInteger responseCode = [HELPER showResponseCode:requestTask.response];
-        success(successResult, responseCode);
-    } failBlock:^(id failResult, NSURLSessionDataTask *requestTask) {
-        NSInteger responseCode = [HELPER showResponseCode:requestTask.response];
-        fail(failResult, responseCode);
-    }];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [HELPER endLoadingToView:WINDOW];
+        [HELPER showInfoHUDWithMessage:@"删除失败。"];
+    });
 }
 
 
