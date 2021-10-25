@@ -14,6 +14,7 @@
 {
     [HELPER loadingHUD:@"" toView:WINDOW];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [HELPER endLoadingToView:WINDOW];
         [HELPER showInfoHUDWithMessage:@"发布成功，内容正在审核中。"];
     });
 }
